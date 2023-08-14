@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Nasalization';
+    src: url('./fonts/nasalization-rg.otf')  format('opentype');
+}
+
+@font-face {
+    font-family: 'Motoverse';
+    src: url('./fonts/moto-verse.ttf') format('truetype');
+}
+
+:root {
+    font-family: 'Nasalization', sans-serif;
+    --text-primary: rgba(0, 0, 0, 0.87);
+    color: var(--text-primary);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: 'Nasalization';
+}
+
+p {
+    font-size: 16px;
+}
+
+.accent {
+    color: #0055ff;
+}
